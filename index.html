@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="ico/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Submit form</title>
+</head>
+
+<body>
+  <div class="app">
+    <form action="#" class="form">
+      <h1>Let's talk</h1>
+
+      <div class="form__row">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+      </div>
+
+      <div class="form__row">
+        <label for="name">Subject:</label>
+        <input type="text" name="subject" id="subject" placeholder="Enter your subject">
+      </div>
+
+      <div class="form__row">
+        <label for="name">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+      </div>
+
+      <div class="form__row">
+        <label for="tel">Phone number:</label>
+        <input type="tel" name="tel" id="tel" placeholder="Enter your phone number">
+      </div>
+
+      <div class="form__row">
+        <label for="tel">Message: </label>
+        <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+      </div>
+
+      <div class="form__row">
+        <input type="file" name="file">
+      </div>
+
+      <button class="form__button" type="submit">
+        <span>Submit</span>
+        <img src="ico/rolling.svg" alt="rolling">
+      </button>
+    </form>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
