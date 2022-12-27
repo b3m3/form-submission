@@ -21,11 +21,10 @@ const Form = () => {
 
   const postData = async (e) => {
     e.preventDefault();
-
-    const url = form.current.action;
+    
     const formData = new FormData(form.current);
 
-    const response = await fetch(url, {
+    const response = await fetch(form.current.action, {
       method: "POST",
       body: formData
     })
@@ -42,9 +41,9 @@ const Form = () => {
 
   return (
     <form 
-      className={style.form}
-      action="../../../php/server.php"
+      action="/php/server.php"
       onSubmit={e => postData(e)}
+      className={style.form}
       ref={form}
     >
       <h1>Let's talk</h1>
