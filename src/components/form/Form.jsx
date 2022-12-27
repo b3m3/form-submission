@@ -21,7 +21,7 @@ const Form = () => {
 
   const postData = async (e) => {
     e.preventDefault();
-    
+
     const formData = new FormData(form.current);
 
     const response = await fetch(form.current.action, {
@@ -42,6 +42,7 @@ const Form = () => {
   return (
     <form 
       action="/php/server.php"
+      method= "POST"
       onSubmit={e => postData(e)}
       className={style.form}
       ref={form}
