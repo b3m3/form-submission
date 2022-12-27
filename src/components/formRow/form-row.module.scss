@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: .3125rem;
+}
+
+input, textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding: .3125rem;
+}
+
+input::placeholder, textarea::placeholder {
+  opacity: .5;
+}
+
+input::placeholder, textarea::placeholder {
+  opacity: .5;
+}
+
+input[type="file"] {
+  border: none;
+}
+
+textarea {
+  min-height: 5rem;
+  resize: none;
+}

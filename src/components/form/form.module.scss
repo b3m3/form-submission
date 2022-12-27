@@ -1,0 +1,11 @@
+.form {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 25rem;
+  border-radius: .75rem;
+  background: #fff;
+  box-shadow: 16px 16px 34px -1px rgba(0,0,0,0.13);
+}

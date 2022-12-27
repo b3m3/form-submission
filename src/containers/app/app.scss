@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Hanken+Grotesk:wght@300;400;700&display=swap');
+
+* {padding: 0;margin: 0;box-sizing: border-box;font-family:inherit;font-weight: inherit;list-style: none;text-decoration: none;color: inherit;}
+html {display: block;font-size: 100%;scroll-behavior: smooth;min-height: 100%;}
+body {height: 100%;margin: 0;background-repeat: no-repeat;background-attachment: fixed;}
+button {cursor: pointer;border: none;background: none;}
+
+:root {
+  --gradient: linear-gradient(45deg, hsl(189deg 92% 59%) 0%, hsl(186deg 94% 49%) 11%, hsl(183deg 100% 47%) 22%, hsl(181deg 100% 46%) 33%, hsl(178deg 100% 46%) 44%, hsl(175deg 100% 46%) 56%, hsl(172deg 100% 47%) 67%, hsl(168deg 100% 47%) 78%, hsl(161deg 89% 57%) 89%, hsl(152deg 89% 63%) 100%);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #90aca6;
+  background: var(--gradient);
+}
+
+h1 {
+  text-align: center;
+  line-height: 60%;
+  font-size: 3rem;
+  font-family: 'Caramel', cursive;
+}
+
+.app {
+  padding: 3% .9375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
