@@ -1,5 +1,5 @@
 <?php
-  header('Content-type: application/json');
+  header('Access-Control-Allow-Origin: *', 'Content-type: application/json');
 
   use PHPMailer\PHPMailer\PHPMailer;
   use PHPMailer\PHPMailer\Exception;
