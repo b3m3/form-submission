@@ -43,7 +43,7 @@ const Form = () => {
   return (
     <form 
       className={style.form}
-      action="/php/server.php"
+      action="../../../php/server.php"
       onSubmit={e => postData(e)}
       ref={form}
     >
